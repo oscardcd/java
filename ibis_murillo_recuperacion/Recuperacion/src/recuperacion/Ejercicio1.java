@@ -10,9 +10,10 @@ public class Ejercicio1 {
         
         int i = 1; 
         
-        while (i <= 100){
+        while (i <= 100)
+        {
             
-            System.out.println(i);
+            System.out.println("el numero es: "+i);
             i+= 2;
         }
     }
