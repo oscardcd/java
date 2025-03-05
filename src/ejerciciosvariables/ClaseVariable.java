@@ -16,6 +16,11 @@ public class ClaseVariable {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("seleccione una opcion en el siguiente menu:\n"
+                + "1-> mostrar variables del ejercicio 1. \n"
+                + "2-> mostrar variables ejercicio 2 \n"
+                + "3-> ingresar al menu de ejercicios de operadores \n"
+                + "4-> ingresar a los ejercicios de la clase math");
     }
     
 }
