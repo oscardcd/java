@@ -27,6 +27,8 @@ public class EjerciciosVariables {
             ejercicio2.showFixedVariables();
         }
         
+        
+        sr.close();
     }
 
 }
