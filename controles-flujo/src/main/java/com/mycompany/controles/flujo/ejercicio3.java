@@ -16,9 +16,9 @@ public class ejercicio3 {
         int number=Integer.parseInt(utils.readFromScanner("enter a number integer negative or positive: ")) ;
         
         if(number<0){
-            System.out.println("the number"+ number + "is negative" );
+            System.out.println("the number "+ number + " is negative" );
         }else{
-            System.out.println("the number"+ number + "is positive" );
+            System.out.println("the number "+ number + " is positive" );
         }
     }
     

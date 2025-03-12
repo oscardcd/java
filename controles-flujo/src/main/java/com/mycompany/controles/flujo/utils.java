@@ -17,7 +17,4 @@ public class utils {
         System.out.println(message);
         return sc.next();
     }
-    
-    
-    
 }
