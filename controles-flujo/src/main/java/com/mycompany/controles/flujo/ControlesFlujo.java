@@ -11,6 +11,11 @@ package com.mycompany.controles.flujo;
 public class ControlesFlujo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        ejercicio1 ej1 = new ejercicio1();
+        Ejercicio2 ej2 = new Ejercicio2();
+        
+        
+       ej1.validateRandomNumber();
+       ej2.findGreater();
     }
 }
