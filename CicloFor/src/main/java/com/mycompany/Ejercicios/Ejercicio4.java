@@ -3,16 +3,16 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.Ejercicios;
+
 import java.util.Random;
+
 /**
  *
  * @author oscarcorrea
  */
 public class Ejercicio4 {
-    
 
-
-    public  void OperacionesSumatoria() {
+    public void OperacionesSumatoria() {
         int numero = 5; // Número definido previamente
         int sumatoria = 0;
 
@@ -20,7 +20,7 @@ public class Ejercicio4 {
         for (int i = 0; i <= numero; i++) {
             sumatoria += i;
         }
-        
+
         System.out.println("Sumatoria desde 0 hasta " + numero + " es: " + sumatoria);
 
         // 1. Raíz cuadrada de la sumatoria
@@ -61,6 +61,4 @@ public class Ejercicio4 {
             System.out.println(sumatoria + " no es un número perfecto.");
         }
     }
-
-
 }
