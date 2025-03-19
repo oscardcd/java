@@ -10,17 +10,22 @@ package com.mycompany.controles.flujo;
  */
 public class Ejercicio4 {
     
-    public void determinePassOrFail(){
-        utils utils=new utils();
+    public void MultiploChecker(){
+        utils utils= new utils();
         
-        double nota = Double.parseDouble(utils.readFromScanner("ingrese nota para validar si el estudiante aprueba"));
+        int num1=0,num2=0;
         
+        num1= Integer.parseInt(utils.readFromScanner("ingrese el primer numero")); 
+        num2= Integer.parseInt(utils.readFromScanner("ingrese el segundo numero")); 
         
-        if(nota<6){
-            System.out.println("El estudiante Reprobo");
-        }else{
-            System.out.println("El estudiante aprobo");
+        if (num1 % num2 == 0) {
+            System.out.println(num1 + " es múltiplo de " + num2);
+        } else if (num2 % num1 == 0) {
+            System.out.println(num2 + " es múltiplo de " + num1);
+        } else {
+            System.out.println("Ninguno de los números es múltiplo del otro.");
         }
+        
         
     }
     

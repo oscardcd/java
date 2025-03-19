@@ -16,5 +16,6 @@ public class utils {
         Scanner sc= new Scanner(System.in);
         System.out.println(message);
         return sc.next();
+        sc.close();
     }
 }
