@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class Ejercicio3 {
 
-    public void NivelPostulante(String[] args) {
+    public void NivelPostulante() {
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar datos al usuario

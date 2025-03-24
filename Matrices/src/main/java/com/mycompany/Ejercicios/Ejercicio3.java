@@ -12,7 +12,7 @@ import java.util.Random;
  */
 public class Ejercicio3 {
 
-    public void MatrizParcial(String[] args) {
+    public void MatrizParcial() {
         Random random = new Random();
         int[][] matriz = new int[3][4];
 

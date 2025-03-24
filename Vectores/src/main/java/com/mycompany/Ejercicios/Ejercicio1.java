@@ -46,6 +46,5 @@ public class Ejercicio1 {
         System.out.println("Cantidad de personas que superan el promedio: " + superiores);
         System.out.println("Cantidad de personas que están por debajo del promedio: " + inferiores);
 
-        scanner.close();
     }
 }

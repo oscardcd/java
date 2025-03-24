@@ -18,7 +18,7 @@ public class Ejercicio2 {
         number1 = Integer.parseInt(util.readFromScanner("please enter first number"));
 
 
-        number2 = Integer.parseInt(util.readFromScanner("please enter first number"));
+        number2 = Integer.parseInt(util.readFromScanner("please enter second number"));
 
         if (number1 < number2) {
             greaterNumber = number2;

@@ -10,7 +10,7 @@ package com.mycompany.Ejercicios;
  */
 public class Ejercicio1 {
 
-    public static void Factorial() {
+    public void Factorial() {
         int numero = 5; // Número definido previamente
         long factorial = 1; // Se usa long para manejar números grandes
 

@@ -12,7 +12,7 @@ import java.util.Scanner;
  */
 public class ejercicio2 {
 
-    public void PromedioGrupos(String[] args) {
+    public void PromedioGrupos() {
         Scanner scanner = new Scanner(System.in);
         int numEstudiantes = 10;
         float[] grupoA = new float[numEstudiantes];
@@ -54,6 +54,5 @@ public class ejercicio2 {
         System.out.println("Promedio general de ambos grupos: " + promedioGeneral);
         System.out.println("El grupo con mejor promedio es: " + mejorGrupo);
 
-        scanner.close();
     }
 }

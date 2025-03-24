@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Ejercicio1 {
 
-    public static void MatricesEjercicio1(String[] args) {
+    public void MatricesEjercicio1() {
         Scanner scanner = new Scanner(System.in);
         Random random = new Random();
 
