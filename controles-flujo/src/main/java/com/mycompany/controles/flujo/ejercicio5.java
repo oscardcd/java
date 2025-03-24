@@ -12,7 +12,8 @@ public class ejercicio5 {
      public void determinePassOrFail(){
         utils utils=new utils();
         
-        double nota = Double.parseDouble(utils.readFromScanner("ingrese nota para validar si el estudiante aprueba"));
+        double nota = Double.parseDouble(utils.readFromScanner("ingrese nota para"
+                + " validar si el estudiante aprueba"));
         
         
         if(nota<6){

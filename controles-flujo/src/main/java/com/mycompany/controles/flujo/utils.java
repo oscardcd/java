@@ -15,7 +15,7 @@ public class utils {
     public String readFromScanner(String message){
         Scanner sc= new Scanner(System.in);
         System.out.println(message);
-        sc.close();
+        
         return sc.next();
         
     }

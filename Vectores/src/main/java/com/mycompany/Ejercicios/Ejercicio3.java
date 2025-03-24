@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.Ejercicios;
- import java.util.Scanner;
+
+import java.util.Scanner;
 
 /**
  *
@@ -11,7 +12,7 @@ package com.mycompany.Ejercicios;
  */
 public class Ejercicio3 {
 
-    public  void DividirPalabra() {
+    public void DividirPalabra() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Ingrese una palabra: ");
@@ -31,8 +32,5 @@ public class Ejercicio3 {
             System.out.print(c + " ");
         }
 
-        scanner.close();
     }
 }
-
-
